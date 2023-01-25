@@ -1,0 +1,1 @@
+var cursor = document.getElementById("cursor"); document.addEventListener("mousemove", function(event) { cursor.style.display = "block"; var x = event.clientX; var y = event.clientY; cursor.style.left = x - cursor.offsetWidth/2 + "px"; cursor.style.top = y - cursor.offsetHeight/2 + "px"; });

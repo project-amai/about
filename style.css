@@ -1,0 +1,80 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(47, 50, 52);
+    color: white;
+    margin: 20px;
+}
+#cursor {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid pink;
+  position: absolute;
+  pointer-events: none;
+  transition: all 0.2s ease-out;
+display: none;
+}
+#inner {
+  width: 10px;
+  height: 10px;
+  background-color: rgb(114, 194, 255);
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#main text{
+    font-size: 50px;
+}
+#logotext {
+    color: pink;
+    font-size: 25px;
+}
+a{
+    color: pink;
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(68, 174, 255);
+}
+::selection{
+    color: rgb(255, 114, 180);
+    background-color: rgb(255, 255, 255);
+}
+
+#aftermenu{
+    text-align: center!important;
+    padding: 80px 13px;
+}
+#github{
+    font-size: 45px;
+    border-radius: 8px;
+    background-color:rgb(68, 174, 255);
+    border-color :rgb(68, 174, 255);
+    border: 0px;
+    color: white;
+    cursor: pointer;
+    font-family: inherit;
+}
+#github:hover{
+    background-color:pink;
+    border-color :pink;
+    color: white;
+    box-shadow: 0 0 10px pink;
+}
+button#github svg {
+    vertical-align: middle;
+}
+
+button#github {
+    display: flex;
+    margin: auto;
+}
+button#github svg {
+    margin-right: 8px;
+}
+
+button#github svg, button#github span {
+    align-self: center;
+}
